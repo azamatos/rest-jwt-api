@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  mongodb:
+    image: mongo
+    container_name: mongo-container
+    ports:
+      - 27017:27017
+    volumes:
+      - ~/apps/mongo:/data/db
+    # environment:
+    #   - MONGO_INITDB_ROOT_USERNAME=azamat
+    #   - MONGO_INITDB_ROOT_PASSWORD=mongo2022
+    #   - MONGO_INITDB_DATABASE=test
