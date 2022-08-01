@@ -25,7 +25,7 @@
 4. Клонирование приложения с репозитория:
 
 ```bash
-git clone https://github.com/azamatos/outside-digital.git
+git clone https://github.com/azamatos/rest-jwt-api.git
 ```
 
 5. Установка зависимостей и пакетов
